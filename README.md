@@ -1,5 +1,6 @@
 # Getting Started with Create React App
 
+This is the simple **portfolio website** made with **React** & **Chakra UI**.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -39,3 +40,12 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+
+### Contributing steps
+
+1. Star this repository
+2. Fork this repository
+3. Clone the forked project into your machine ```git clone <fork url>```
+4. Make new branch and commit the changes
+5. Perform ```git push action```
+6. Make a pull request
