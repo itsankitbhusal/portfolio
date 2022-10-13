@@ -2,7 +2,7 @@
   "name": "chakra-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ankitbhusal.github.io",
+  "homepage": "https://ankitbhusal.github.io/portfolio",
   "dependencies": {
     "@chakra-ui/react": "^2.2.9",
     "@emotion/react": "^11.10.0",
