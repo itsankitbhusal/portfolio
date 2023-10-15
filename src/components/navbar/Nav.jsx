@@ -19,6 +19,7 @@ import React from "react";
 import { MdOutlineDarkMode } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
 import NavLinks from "./NavLinks";
+import logo from "../../assets/image/AB-logo-2.png"
 // import Drawer from "./Drawer";
 
 const Nav = () => {
@@ -27,6 +28,11 @@ const Nav = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
 
+  // const logoStyle = {
+  //   width: 'auto',
+  //   padding: '0'
+  // }
+
   return (
     <>
       <Box w="100%" fontWeight="bold" align="center" boxShadow="lg">
@@ -34,12 +40,14 @@ const Nav = () => {
           {/* Logo section */}
           <HStack>
             <Heading
-              _hover={{
-                color: "gray",
-                cursor: "pointer",
-              }}
+              // _hover={{
+              //   color: "gray",
+              //   cursor: "pointer",
+              // }}
             >
-              Logo
+              <div className="logo-img" >
+                <img src={logo} alt="logo-image" />
+              </div>
             </Heading>
           </HStack>
 
